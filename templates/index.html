@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    setInterval(function() {
+        $(document).ready(function(){
+            $("#div1").load("test.txt");
+        });
+    }, 1000);
+
+</script>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>Monitor status here!</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style CSS ======-->
+
+</head>
+
+<body>
+<first>
+      <div style="float: left">
+          <a><img style="width: 106px; padding-left: 62px; padding-top: 42px;" src="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/1200px-Logo-hcmut.svg.png"></a>
+      </div>
+    <div style="float: left">
+        <a><img style="width: 152px; padding-left: 2px; padding-top: 23px;" src="2.jpg"> </a>
+    </div>
+    <h1 style="float: left; padding-top: 33px; padding-left: 237px; font-size:37pt; color: darkblue; font-family: 'Consolas';">BÃI ĐỖ XE XC</h1>
+</first>
+<second style="float: left">
+    <div>
+        <h2>SỐ LƯỢNG CHỖ TRỐNG HIỆN TẠI :</h2>
+    </div>
+    <div>
+        <span class="counter" id="div1">0</span>
+    </div>
+</second>
+</body>
+</html>
